@@ -11,14 +11,7 @@ class AlarmApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: true,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Alarm App'),
-        ),
-        body: const Center(
-          child: Text('Welcome to the Alarm App'),
-        ),
-      ),
+      home: ,
     );
   }
 }
